@@ -1,0 +1,291 @@
+/* start of portfolio */
+*{
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+/* .nested2{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+} */
+ .desc{
+   padding: 10px;
+   text-justify: newspaper;
+ }
+ .nested >div{
+   padding: 10px;
+ }
+.nested{
+  display: grid;
+  background-color: cyan;
+  grid-template-columns: 1fr 2fr  ;
+  /* grid-template-rows: 3fr; */
+  grid-auto-rows: minmax(100px,auto);
+}
+.recent{
+  /* background-color: brown; */
+  position: relative;
+  margin: 0em;
+  top: 1em;
+  padding: 0em;
+}
+.sidebar ul{
+  overflow: visible;
+  list-style: square;
+  position: relative;
+  background-color: rgb(243, 248, 250);
+
+}
+.sidebar h3{
+  
+  border-bottom-style: dotted;
+  position: relative;
+  text-align: center;
+  padding-bottom: 9px;
+}
+.sidebar li{
+  background-color: rgb(243, 248, 250);
+ border-bottom:1px outset  rgb(243, 248, 250);
+  text-align: left !important;
+ padding-bottom: 10px;
+
+}
+.sidebar li a{
+  /* background-color: rgb(21, 21, 151); */
+ color: black;
+ padding: 7px;
+ word-spacing: 3px;
+}
+
+.sidebar li a:hover{
+  /* background-color: rgb(21, 21, 151); */
+ color:red;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  /* grid-template-rows: 200px; */
+grid-gap: 5px;  
+}
+.sidebar{
+  background-color: rgb(243, 248, 250);
+border: 1px groove  rgb(243, 248, 250);
+  top: 1em;
+
+  position: relative;
+   padding: 0em;
+  /* margin-left: 2px;  */
+  text-align: center;
+}
+.sidebar p{
+  background-color:coral;
+}
+.section{
+  position: absolute;
+  margin: auto;
+}
+.recent h3{
+  border-bottom-style: dotted;
+  position: relative;
+  text-align: center;
+  padding-bottom: 10px;
+  
+}
+.top{
+  position: relative;
+  margin: auto;
+  top: 20px;
+}
+.top2{
+  position: relative;
+  margin: auto;
+  top: 3em;
+}
+.title{
+  position: relative;
+  margin: auto;
+}
+.title h2{
+  font-family: 'Times New Roman', Times, serif;
+  border-bottom: 1px solid black;
+
+}
+.title p{
+  font-family: 'Times New Roman', Times, serif;
+  opacity: 0.5;
+}
+.head{
+  float: inline-start;
+  position: relative;
+  margin: auto;
+  margin-top: 0em;
+  padding-bottom: 5px;
+  padding-top: 0em;
+}
+.header{
+  position: fixed;
+}
+.nav{
+  background-color:whitesmoke;
+  position: relative;
+  
+}
+.nav ul{
+  list-style: none;
+  /* background-color: brown; */
+  position: relative;
+  text-align: end;
+  /* float: right; */
+  /* max-width: 50%; */
+  margin: auto;
+padding: 15px;  
+}
+.nav li{
+  padding-right: 30px;
+  display: inline;
+}
+.nav li  a{
+  color:black;
+  font-size: 1em;
+font-weight: 17em;
+font-family: monospace;
+}
+.nav li  a:hover{
+  color:red;
+  outline-style: none;
+  text-decoration: none;
+  text-decoration-style: none;
+}
+.container{
+  position: relative;
+  top: 15px;
+  background-color:whitesmoke;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end of portfolio */
+
+
+@media(max-width:48em){
+  .container{
+  background-color:green;
+    padding: 0;
+    margin: 0;
+}
+.nav{
+  /* max-width:100%; */
+  position: relative;
+}
+.nav ul{
+  padding: 4px;
+  position: relative;
+  /* text-align: left; */
+  
+}
+.nav ul li{
+  padding-right: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.App {
+  text-align: center;
+  margin-top: 100px;
+}
+.Count {
+  margin-top: -8px;
+}
+.HCounter {
+  color: dodgerblue;
+  margin-right: 200px;
+}
+.Button-A {
+  border-width: 0;
+  background-color: transparent;
+}
+.Center {
+  margin: 0 auto;
+  width: max-content;
+  margin-top: 20px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.Button {
+  margin-top: 20px;
+}
+.SearchButton {
+  background-color: lightseagreen;
+  width: 150px;
+  padding: 3px;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+}
+.H1 {
+  margin-bottom: 20px;
+  color: chocolate;
+}
+.User {
+  margin-top: 20px;
+  color: cadetblue;
+  font-size: 20px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
